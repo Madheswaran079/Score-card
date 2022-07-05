@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #2585e6;
+}
+#BG{
+    width: fit-content;
+    height: fit-content;
+}
+#div{
+    margin-left: auto;
+    margin-right: auto;
+}
+#heading1{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+#heading2{
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
+}
+hr{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+#scoreCard{
+    background-color: white;
+    width: 30%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#batsmanList{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+#runScored{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+#ballFaced{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+#noOfFours{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+#noOfSixes{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+#strikeRate{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.5em;
+    background-color: #c70606;
+    color: slategrey;
+}
+td{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: violet;
+    color: saddlebrown;
+}
